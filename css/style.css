@@ -8,6 +8,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+
 }
 
 body {
@@ -70,10 +76,7 @@ main {
 }
 
 .main-info h1 {
-    font-weight: 500;
     font-size: 60px;
-    line-height: 97.2%;
-    letter-spacing: -0.03em;
     color: #181717;
 }
 
@@ -86,18 +89,25 @@ main {
 .section-greeting p {
     font-weight: 400;
     font-size: 32px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
     color: #606060;
     padding-top: 50px;
 }
 
+.section-project1 {
+    height: 468px;
+    border-bottom: 1.5px solid black;
+}
+
 .section-project2 {
     margin-top: 108px;
+    height: 468px;
+    border-bottom: 1.5px solid black;
 }
 
 .section-project3 {
     margin-top: 108px;
+    height: 468px;
+    border-bottom: 1.5px solid black;
 }
 
 .arrow {
@@ -110,6 +120,7 @@ main {
 .project_container {
     display: flex;
     justify-content: space-between;
+    height: 360px;
 }
 
 .project-background {
@@ -137,11 +148,7 @@ main {
 }
 
 .project-info h2 {
-
-    font-weight: 500;
     font-size: 24px;
-    line-height: 121.5%;
-    letter-spacing: -0.03em;
     color: #181717;
     margin-bottom: 25px;
 }
@@ -149,8 +156,6 @@ main {
 .project-info p {
     font-weight: 400;
     font-size: 22px;
-    line-height: 121.5%;
-    letter-spacing: -0.03em;
 }
 
 .project-info-p1 {
@@ -165,19 +170,9 @@ main {
 }
 
 .project-info a {
-    font-weight: 500;
     font-size: 22px;
-    line-height: 121.5%;
-    letter-spacing: -0.03em;
     text-decoration-line: underline;
     color: #181717;
-}
-
-.separator-line {
-    margin-top: 108px;
-    width: 1120px;
-    height: 1px;
-    background-color: black;
 }
 
 .footer-container {
@@ -193,12 +188,8 @@ main {
 .footer-container p {
     margin-top: auto;
     margin-bottom: auto;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
     color: #2429AF;
 }
 
@@ -217,15 +208,9 @@ main {
 }
 
 .footer-container nav ul li a {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 22px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
     color: #181717;
     list-style: none;
-    text-decoration: none;
 }
 
 .footer-container nav ul li:last-child {
@@ -251,35 +236,22 @@ main {
 
 .about-description h1 {
     width: 480px;
-    height: 189.22px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
+    height: 240px;
     font-size: 60px;
-    line-height: 97.2%;
-    letter-spacing: -0.03em;
     color: #181717;
 }
 
 .description {
     width: 575px;
     height: 300px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
     color: #606060;
 }
 
 .education {
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
     color: #606060;
 }
 
@@ -308,12 +280,7 @@ main {
 .skill-name {
     width: 124px;
     height: 20px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
     font-size: 22px;
-    line-height: 121.5%;
-    letter-spacing: -0.03em;
     text-decoration-line: underline;
     color: #181717
 }
@@ -328,26 +295,16 @@ main {
 .stack {
     width: 436px;
     height: 80px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 121.5%;
-    letter-spacing: -0.03em;
     color: #181717;
 }
 
 .lang {
     width: 436px;
     height: 54px;
-    left: calc(50% - 436px/2 - 155px);
-    top: 1092px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 121.5%;
-    letter-spacing: -0.03em;
     color: #181717
 }
 
@@ -365,13 +322,8 @@ main {
 
     width: 347px;
     height: 71px;
-    top: 1509px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
     color: #181717;
 }
 
@@ -386,12 +338,9 @@ main {
 
 .section-email p {
     height: 37px;
-    font-family: 'DM Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 117%;
-    letter-spacing: -0.03em;
     color: #181717;
     margin: auto;
 }
